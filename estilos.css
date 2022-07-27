@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Koulen', cursive;
+    text-align: center;
+    background-color: rgb(252, 177, 38);
+    color: white;
+    border: 10px solid rgb(212, 138, 0);
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 275px;
+    font-size: 30px;
+}
+
+footer {
+    font-family: 'Koulen', cursive;
+    height: 300px;
+    color: white;
+    background-image: url(assets/img/pizza2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top: 10px solid rgb(212, 138, 0);
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.titulo{
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.iniciar {
+    justify-content: center;
+    margin-left: 40%;
+}
+
+.cuerpo {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 200px;
+    height: 700px;
+    background-image: url(assets/img/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cuerpo1{
+    display: flex;
+    padding-left: 650px;
+    padding-top: 200px;
+    height: 700px;
+    background-image: url(assets/img/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cuerpo2{
+    display: flex;
+    padding-left: 825px;
+    padding-top: 200px;
+    height: 700px;
+    background-image: url(assets/img/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cuerpo3{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    height: 700px;
+    background-image: url(assets/img/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.caja {
+    text-align: center;
+    background-color: rgb(252, 177, 38);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 40%;
+    height: 600px;
+    box-shadow: 1px 1px 32px 10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 32px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 32px 10px rgba(0, 0, 0, 0.75);
+}
+
+.caja1 {
+    justify-content: center;
+    background-color: rgb(252, 177, 38);
+    color: white;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.caja2{
+    text-align: center;
+    background-color: rgb(252, 177, 38);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 800px;
+    height: 600px;
+    box-shadow: 1px 1px 32px 10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 32px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 32px 10px rgba(0, 0, 0, 0.75);
+}
+
+.caja3{
+    text-align: center;
+    background-color: rgb(252, 177, 38);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 800px;
+    height: 600px;
+    box-shadow: 1px 1px 32px 10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 32px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 32px 10px rgba(0, 0, 0, 0.75);
+}
+
+.caja4{
+    text-align: center;
+    background-color: rgb(252, 177, 38);
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 800px;
+    height: 600px;
+    box-shadow: 1px 1px 32px 10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 32px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 32px 10px rgba(0, 0, 0, 0.75);
+}
+
+nav li {
+    display: inline;
+    /* pone la lista desordenada de forma horizontal */
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    background-color: rgb(212, 138, 0);
+}
+
+a {
+    color: white;
+}
+
+input {
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+}
+
+select {
+    border-radius: 5px;
+    height: 50px;
+    width: 400px;
+}
+
+button{
+    border-radius: 5px;
+    height: 50px;
+    width: 400px;
+}
+
+.texto {
+    background-color: rgb(212, 138, 0);
+    border-radius: 10px;
+    font-family: 'Koulen', cursive;
+}
+
+.nose{
+    color: gray;
+    font-size: 25px;
+}
+
+.num{
+    text-align: center;
+    color: gray;
+    font-size: 45px;
+}
+
+.boton{
+    border-radius: 50px;
+    background-color: rgb(212, 138, 0);
+}
